@@ -116,8 +116,8 @@ def connect(ip):
 while True:
     try:
         #ip = "192.168.1.106"
-        ip = "25.60.94.167"
-        #ip = socket.gethostbyname('firstblood.hopto.org')
+        #ip = "25.60.94.167"
+        ip = socket.gethostbyname('firstblood.hopto.org')
         if connect(ip) == 1:
             break
     except:
